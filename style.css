@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+header a img {
+    position: relative;
+    max-width: 60px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0px 25px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    height: 60vh;
+}
+
+.left {
+    width: 60%;
+    padding: 100px;
+}
+
+.left h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+}
+#fancy-name-1 {
+    color: #017143;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+#mybutton {
+    margin: 10px 0px;
+    background-color: #04663e;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 0px 40px;
+}
+
+.big-image img{
+    max-width: 300px;
+}
+
+.big-image img:hover {
+    transform: rotate(360deg);
+    transition: 10s;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.social-media-icons img {
+    margin: 12px 0px;
+    width: 20px;
+    height: 23px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+footer .items-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .items-images img {
+    width: 100px;
+    padding: 0px 10px;
+}
+
+footer .items-images img:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+}

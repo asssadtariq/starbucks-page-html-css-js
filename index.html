@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+        <ul>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>What's New</li>
+          <li>Contact</li>
+        </ul>
+      </header>
+
+      <main>
+        <div class="left">
+          <h1>It's not just Coffee</h1>
+          <h1>Its <span id="fancy-name-1">Starbucks</span></h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non earum
+            omnis sint illum eos provident maiores perspiciatis cumque aut!
+            Assumenda omnis sapiente vitae.
+          </p>
+          <button id="mybutton">Learn More</button>
+        </div>
+        <div class="right">
+          <div class="big-image" id="main-images">
+            <img src="images/img1.png" alt="" />
+          </div>
+          <div class="social-media-icons">
+            <img src="images/facebook.png" alt="" />
+            <img src="images/instagram.png" alt="" />
+            <img src="images/twitter.png" alt="" />
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="items-images">
+          <img
+            src="images/thumb1.png"
+            alt=""
+            id="thumb1"
+            onclick="changePicture(1)"
+          />
+          <img
+            src="images/thumb3.png"
+            alt=""
+            id="thumb2"
+            onclick="changePicture(3)"
+          />
+          <img
+            src="images/thumb2.png"
+            alt=""
+            id="thumb3"
+            onclick="changePicture(2)"
+          />
+        </div>
+      </footer>
+    </section>
+
+    <script src="myjs.js"></script>
+  </body>
+</html>
